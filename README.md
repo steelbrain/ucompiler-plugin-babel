@@ -1,12 +1,14 @@
-UCompiler-Plugin-Babel
-======================
+# UCompiler-Plugin-Babel
 
-This is a Babel support package for UCompiler. To compile your files using babel, simply start them with `'use babel'`.
+This is a Babel support package for UCompiler. To compile your files using
+babel, simply start them with `'use babel'`.
 
 
-#### How to Use
+## How to Use
 
-Simply add "babel" to `plugins` field in your `.ucompilerrc`
+You first need to add `ucompiler-plugin-babel` to your `devDependencies`
+within your `package.json`, then simply add "babel" to the `plugins` field
+in your `.ucompilerrc` configuration file.
 
 ```js
 {
@@ -14,6 +16,6 @@ Simply add "babel" to `plugins` field in your `.ucompilerrc`
 }
 ```
 
-#### License
+## License
 
 This project is licensed under the terms of MIT License
