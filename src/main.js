@@ -2,7 +2,7 @@
 
 import {transform} from 'babel-core'
 
-export const compiler = false
+export const compiler = true
 export const minifier = false
 export function process(contents, {fileName, relativePath, root}, {config, state}) {
   const beginning = contents.substr(0, 11)
