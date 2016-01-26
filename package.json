@@ -1,6 +1,6 @@
 {
   "name": "ucompiler-plugin-babel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Babel support for UCompiler",
   "main": "lib/main.js",
   "jsnext:main": "src/main.js",
