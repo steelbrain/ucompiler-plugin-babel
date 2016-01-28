@@ -17,6 +17,6 @@ export function process(contents, {fileName, relativePath, root}, {config, state
     sourceMaps: true,
     highlightCode: false
   }))
-  state.sourceMap = transpiled.map.toString()
+  state.sourceMap = transpiled.map
   return transpiled.code
 }
