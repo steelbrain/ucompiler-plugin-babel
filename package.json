@@ -8,7 +8,7 @@
     "babel-preset-steelbrain": "^1.0.0"
   },
   "scripts": {
-    "compile": "ucompiler go src"
+    "compile": "ucompiler go"
   },
   "repository": {
     "type": "git",
