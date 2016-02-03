@@ -15,6 +15,7 @@ export function process(contents, {rootDirectory, filePath, config}) {
     sourceMaps: true,
     highlightCode: false
   }))
+  transpiled.map.sources = [relativePath]
   return {
     contents: transpiled.code,
     sourceMap: transpiled.map
