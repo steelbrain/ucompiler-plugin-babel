@@ -1,3 +1,7 @@
+### 3.1.1
+
+* Produce source map paths relative to root
+
 ### 3.1.0
 
 - `'use babel'` is no longer required for files to be compiled using babel.
