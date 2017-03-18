@@ -1,5 +1,7 @@
 # UCompiler-Plugin-Babel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/ucompiler-plugin-babel.svg)](https://greenkeeper.io/)
+
 This is a Babel support package for UCompiler. To compile your files using
 babel, simply start them with `'use babel'`.
 
